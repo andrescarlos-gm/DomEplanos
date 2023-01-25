@@ -19,7 +19,7 @@ body{
 }
 
 .hero{
-    background-image: linear-gradient(120deg, rgba(3, 1, 4, 0.699) 0%, rgba(10, 29, 124, 0.692) 100%), url("/Pics/plano2.jpg");
+    background-image: linear-gradient(120deg, rgba(3, 1, 4, 0.699) 0%, rgba(10, 29, 124, 0.692) 100%), url("/Pics/bg.jpeg");
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body{
 }
 
 .textos-hero p{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(12, 12, 12), 0 0 0.2em rgba(5, 5, 6, 0.606);
 }
@@ -55,7 +55,7 @@ body{
     display: inline-block;
     text-decoration: none;
     padding: 12px 15px;
-    background: #a18cd1;
+    background: #c6e743c9;
     border-radius: 8px;
     color: #fff;
 }
@@ -119,7 +119,7 @@ body{
 .cta{
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-image: linear-gradient(120deg, rgba(3, 1, 4, 0.699) 0%, rgba(10, 29, 124, 0.692) 100%);
     padding: 12px 15px;
     border-radius: 8px;
     color: #fff;
