@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Landing Page HTML | AlexCG Design</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+    <title>Planos Electricos Domiciliarios</title>
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="/css/notburguer.css">
@@ -33,10 +32,10 @@
             <div>
                 <div>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Galería</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#app">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +45,7 @@
 
 
 
-    <header class="hero">
+    <header class="hero" id="inicio">
         <div class="textos-hero">
             <h1>Planos Eléctricos Domiciliarios</h1>
             <p>de calidad para su proyecto</p>
@@ -61,8 +60,8 @@
     </header>
 
 
-    <section class="wave-contenedor website">
-        <img src="Pics/pxArt.png" alt="">
+    <section class="wave-contenedor website" id="servicios">
+        <img src="Pics/imagenilustrativa.jpeg" alt="">
         <div class="contenedor-textos-main">
             <h2 class="titulo left">Nos encargamos de diseñar su plano de acuerdo a la actual normativa eléctrica chilena...</h2>
             <p class="parrafo">¡No más problemas con la superintendencia debido a instalaciones fuera de norma!</p>
@@ -134,23 +133,22 @@
         <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
             style="height: 100%; width: 100%;">
             <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                style="stroke: none; fill: #c6e743c9;"></path>
+                style="stroke: none; fill: #e6e222c9;"></path>
         </svg></div>
     </section>
 
     <footer id="contacto">
         <div class="contenedor">
             <h2 class="titulo">¡Quiero mi plano!</h2>
-            <form action="" class="form">
-                <input class="input"  type="text" name="" id="" placeholder="Nombre">
-                <input class="input"  type="email" name="" id="" placeholder="Email">
-                <textarea  class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <form action="https://formsubmit.co/andrescarlos2211@gmail.com" method="POST" >
+                <input class="input"  type="text" name="name" id="" placeholder="Nombre">
+                <input class="input"  type="email" name="email" id="" placeholder="Email">
+                <textarea  class="input" name="" id="comments" cols="30" rows="10" placeholder="Mensaje"></textarea>
                 <input class="input"  type="submit" value="Enviar">
             </form>
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
     <script src="/js/carousel.js"></script>
 </body>
 
