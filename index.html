@@ -8,6 +8,20 @@
     <title>Landing Page HTML | AlexCG Design</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="/js/carousel.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					fontFamily: {
+						cabinetGrotesk: "'Cabinet Grotesk', san-serif",
+					}
+				}
+			}
+		}
+</script>
 </head>
 
 <body>
@@ -30,8 +44,7 @@
         <img src="img/ilustracion1.svg" alt="">
         <div class="contenedor-textos-main">
             <h2 class="titulo left">Nos encargamos de diseñar su plano de acuerdo a la actual normativa chilena </h2>
-            <p class="parrafo"></p>
-            <!-- <a href="" class="cta">Learn more</a> -->
+            <p class="parrafo">¡No más problemas con la superintendencia debido a instalaciones fuera de norma!</p>
         </div>
     </section>
 
@@ -65,7 +78,7 @@
             </article>
         </div>
     </section> -->
-
+<!-- 
     <section class="galeria">
         <div class="contenedor">
             <h2 class="titulo">Our work</h2>
@@ -78,7 +91,69 @@
                 <img src="img/seis.jpg" alt="">
             </article>
         </div>
-    </section>
+    </section> -->
+
+<!-- carousel -->
+
+    <div id="app" class="max-w-screen-lg mx-auto px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
+		<div class="relative">
+			<div class="slides-container h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth before:w-[45vw] before:shrink-0 after:w-[45vw] after:shrink-0 md:before:w-0 md:after:w-0">
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="/Pics/plano2.jpg" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="/Pics/plano3.jpg" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="/Pics/plano8.jpg" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="/Pics/plano9.jpg" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="/Pics/cargas.jpg" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="/Pics/TE1 vivienda.jpg" alt="mountain_image">
+				</div>
+				<!-- <div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="" alt="mountain_image">
+				</div>
+				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
+					<img class="w-full h-full object-cover" src="" alt="mountain_image">
+				</div> -->
+
+			</div>
+
+			<div class="absolute top-0 -left-4 h-full items-center hidden md:flex">
+				<button role="button" class="prev px-2 py-2 rounded-full bg-neutral-100 text-neutral-900 group" aria-label="prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 group-active:-translate-x-2 transition-all duration-200 ease-linear">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+					</svg>
+
+				</button>
+			</div>
+			<div class="absolute top-0 -right-4 h-full items-center hidden md:flex">
+				<button role="button" class="next px-2 py-2 rounded-full bg-neutral-100 text-neutral-900 group" aria-label="next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 group-active:translate-x-2 transition-all duration-200 ease-linear">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+					</svg>
+				</button>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- /carousel -->
+
+
+
+
 
     <section class="info-last">
 
@@ -100,7 +175,7 @@
 
     <footer id="contacto">
         <div class="contenedor">
-            <h2 class="titulo">Contact us</h2>
+            <h2 class="titulo">Cotize con nosotros</h2>
             <form action="" class="form">
                 <input class="input"  type="text" name="" id="" placeholder="Nombre">
                 <input class="input"  type="email" name="" id="" placeholder="Email">
