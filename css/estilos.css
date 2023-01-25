@@ -236,7 +236,7 @@ footer{
 }
 
 .input::placeholder{
-    color: rgb(99, 98, 98);
+    color: rgb(51, 49, 49);
     font-family: 'raleway', 'sans-serif';
 }
 
@@ -260,7 +260,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     cursor: pointer;
-    color: tomato;
+    color: rgb(3, 3, 102);
     background: #fff;
 }
 
@@ -356,4 +356,12 @@ input[type="submit"]:hover{
 }
 .slides-container::-webkit-scrollbar {
 	display: none; /* Safari and Chrome */
+}
+
+.texto-destacado{
+    color: #F55818;
+    font-weight: bold;
+}
+.texto-azul{
+    font-weight: bold;
 }
