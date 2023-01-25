@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    font-family: 'CasionReg', sans-serif;
+    font-family: 'CasionReg'!important;
 }
 
 .hero{
