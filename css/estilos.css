@@ -214,8 +214,7 @@ body{
 /* footer */
 
 footer{
-    background: #f5576c;
-    color: #fff;
+    background-image: linear-gradient(120deg, rgba(3, 1, 4, 0.699) 0%, rgba(10, 29, 124, 0.692) 100%) ;   color: #fff;
 }
 
 .form{
