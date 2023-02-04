@@ -41,13 +41,13 @@ body{
 }
 
 .textos-hero h1{
-    font-size: 60px;
+    font-size: 70px;
     /* text-shadow: 20px 15px 7px black; */
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(12, 12, 12), 0 0 0.2em rgba(5, 5, 6, 0.606);
 }
 
 .textos-hero p{
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(12, 12, 12), 0 0 0.2em rgba(5, 5, 6, 0.606);
 }
@@ -328,11 +328,11 @@ input[type="submit"]:hover{
 @media screen and (max-width:400px){
     .titulo,
     .textos-hero h1{
-        font-size: 30px;
+        font-size: 60px;
     }
 
     .textos-hero p{
-        font-size: 20px;
+        font-size: 50px;
         text-align: center;
     }
 
