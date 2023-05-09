@@ -31,14 +31,14 @@ body{
     
 }
 
-.textos-hero{
+.textos-hero {
     height: 500px;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
 .textos-hero h1{
     font-size: 70px;
@@ -265,7 +265,7 @@ input[type="submit"]:hover{
     background: #fff;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
     .textos-hero h1{
         text-align: center;
         font-size: 50px;
@@ -328,11 +328,12 @@ input[type="submit"]:hover{
 @media screen and (max-width:400px){
     .titulo,
     .textos-hero h1{
-        font-size: 60px;
+        font-size: 40px;
+        padding-top: 50px
     }
 
     .textos-hero p{
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
     }
 
