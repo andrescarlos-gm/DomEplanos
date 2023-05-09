@@ -267,6 +267,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width:900px){
     .textos-hero h1{
+        padding-top: 120px;
         text-align: center;
         font-size: 50px;
     }
