@@ -383,7 +383,7 @@ input[type="submit"]:hover{
 }
 
 .texto-destacado{
-    color: #F55818;
+    color: #15a9d6 ;
     font-weight: bold;
 }
 .texto-azul{
@@ -416,3 +416,7 @@ input[type="submit"]:hover{
 }
 
 
+span{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+}
