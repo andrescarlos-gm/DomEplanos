@@ -322,7 +322,7 @@ input[type="submit"]:hover{
 
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:510px){
     .titulo,
     .textos-hero h1{
         font-size: 30px;
