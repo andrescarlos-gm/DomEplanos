@@ -149,6 +149,19 @@
     </footer>
 
     <script src="/js/carousel.js"></script>
+
+    <script>
+        const menuItems = document.querySelectorAll('.menu li a');
+        const toggler = document.querySelector('.toggler');
+      
+        menuItems.forEach(item => {
+          item.addEventListener('click', () => {
+            toggler.checked = false;
+          });
+        });
+      </script>
+
+
 </body>
 
 </html>
