@@ -81,15 +81,16 @@ body{
     margin: auto;
     padding: 0 0 80px 0;
 }
-.contenedor{
+/* .contenedor{
     padding: 80px 0;
-}
+} */
 
 .titulo{
     font-weight: 300;
     font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
+    color: #767676;
 }
 
 .titulo.left{
@@ -419,4 +420,9 @@ input[type="submit"]:hover{
 span{
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 14pt;
+    color: #767676;
+}
+
+.secondary{
+    color:#343333;
 }
