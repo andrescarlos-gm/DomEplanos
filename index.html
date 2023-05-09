@@ -10,6 +10,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="/css/notburguer.css">
    <script src="js/twinit.js"></script>
+
+   <!-- CDN Animate on Scroll -->
+
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <!-- burguer -->
 <body>
@@ -54,22 +60,22 @@
     </header>
 
 
-    <section class="wave-contenedor website" id="servicios">
-        <img src="Pics/imagenilustrativa.jpeg" alt="">
-        <div class="contenedor-textos-main">
+    <section class="wave-contenedor website" id="servicios" data-aos="fade-right" ata-aos-anchor-placement="center-bottom" data-aos-duration="1400">
+        <img src="Pics/imagenilustrativa.jpeg"  alt="">
+        <div class="contenedor-textos-main" >
 
             <h2 class="titulo left secondary">Nos encargamos de diseñar su plano de acuerdo a la actual normativa eléctrica chilena...</h2>
            <span class="texto-destacado"> Su tiempo es valioso</span><span class="parrafo"> y lo sabemos, ¡Evite perderlo debido a solicitudes fuera de norma!</span>
         </div>
     </section>
 
-    <section class="info">
+    <section class="info" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="2000">
         <div class="contenedor">
             <h2 class="titulo left secondary">Excelentes periodos de entrega</h2>
             <span>Nos tomamos muy en serio la importancia de</span><span class="texto-destacado"> los plazos, </span><span>por lo que obtendrá su documento oportunamente disponiendo además de una buena comunicación por parte de nuestros colaboradores.</span> 
         </div>
     </section>
-    <div id="app" class="max-w-screen-lg mx-auto px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
+    <div id="app" class="max-w-screen-lg mx-auto px-4 md:px-8 py-12 transition-all duration-500 ease-linear" >
 		<div class="relative">
 			<div class="slides-container h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth before:w-[45vw] before:shrink-0 after:w-[45vw] after:shrink-0 md:before:w-0 md:after:w-0">
 				<div class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden">
@@ -117,8 +123,9 @@
     <section class="info-last">
 
         <div class="contenedor last-section">
-            <div class="contenedor-textos-main">
-                <h2 class="titulo left secondary">Precios muy Asequibles</h2>
+            <div class="contenedor-textos-main"                        data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+                <h2 class="titulo left secondary">Precios Asequibles</h2>
                 <span class="parrafo"> ¿Para qué pagar de más? En<span class="texto-azul"> EplanosChile </span>ofrecemos un servicio de excelente calidad al mejor precio.</span>
                 <span>Te entregamos el documento en multiples formatos</span><span class="texto-destacado"> Autocad </span>
                 <span>para que no tengas problemas de compatibilidad, además tus documentos estarán siempre disponibles</span> <span class="texto-destacado">desde la nube</span><span> si así lo solicitas.</span>
@@ -126,7 +133,8 @@
                 <br><span>Cotiza con nosotros, </span><span class="texto-destacado">Te conviene.</span><br>
                 <!-- <a href="#contacto" class="cta">Ir a Cotizar</a> -->
             </div>
-            <img src="/Pics/moneyguy.png" alt="">
+            <img src="/Pics/moneyguy.png"  data-aos="zoom-in-left"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000"  alt="">
         </div>
         
         <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
@@ -136,7 +144,7 @@
         </svg></div>
     </section>
 
-    <footer id="contacto">
+    <footer id="contacto" data-aos="zoom-out-up" data-aos-anchor-placement="center-bottom">
         <div class="contenedor">
             <h2 class="titulo secondary">¡Quiero mi plano!</h2>
             <form action="https://formsubmit.co/andrescarlos2211@gmail.com" method="POST" class="form">
@@ -148,18 +156,9 @@
         </div>
     </footer>
 
-    <script src="/js/carousel.js"></script>
+    <script src="/js/scripts.js"></script>
 
-    <script>
-        const menuItems = document.querySelectorAll('.menu li a');
-        const toggler = document.querySelector('.toggler');
-      
-        menuItems.forEach(item => {
-          item.addEventListener('click', () => {
-            toggler.checked = false;
-          });
-        });
-      </script>
+
 
 
 </body>
