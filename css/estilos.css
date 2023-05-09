@@ -426,3 +426,24 @@ span{
 .secondary{
     color:#343333;
 }
+
+.footerimgcont{
+    position: relative;
+    height: 100px; /* ajusta la altura a tus necesidades */
+}
+
+.footerimg {
+    position: fixed;
+    bottom: 20px; /* ajusta la distancia desde abajo */
+    right: 20px; /* ajusta la distancia desde la derecha */
+    animation: jump 0.5s infinite alternate;
+  }
+
+  @keyframes jump {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
