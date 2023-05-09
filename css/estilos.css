@@ -38,6 +38,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 70px
   }
 
 .textos-hero h1{
@@ -265,9 +266,20 @@ input[type="submit"]:hover{
     background: #fff;
 }
 
+.autorizado{
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: black 0.5em 0.5em 0.3em
+}
+
+.contacto{
+    margin-top: 40px;
+}
+
+
 @media screen and (max-width:900px){
     .textos-hero h1{
-        padding-top: 120px;
+        padding-top: 20px;
         text-align: center;
         font-size: 50px;
     }
@@ -332,6 +344,9 @@ input[type="submit"]:hover{
         font-size: 40px;
         padding-top: 50px
     }
+    .textos-hero {
+        margin-top: 40px
+      }
 
     .textos-hero p{
         font-size: 30px;
@@ -348,6 +363,12 @@ input[type="submit"]:hover{
 
     .galeria-cont>img{
         width: 97%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .autorizado{
+        width: 160px;
     }
 }
 
@@ -393,3 +414,5 @@ input[type="submit"]:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
+
