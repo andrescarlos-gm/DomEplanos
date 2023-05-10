@@ -447,3 +447,11 @@ span{
     transform: translateY(-10px);
   }
 }
+
+.contenedorlast{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 0 0;
+}
