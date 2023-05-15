@@ -19,7 +19,7 @@ body{
 }
 
 .hero{
-    background-image: linear-gradient(120deg, rgba(3, 1, 4, 0.699) 0%, rgba(10, 29, 124, 0.692) 100%), url("/Pics/bg.jpeg");
+    background-image: linear-gradient(120deg, rgba(3, 1, 4, 0.699) 0%, rgba(10, 29, 124, 0.692) 100%), url("/Pics/bg.jpg");
     width: 100%;
     height: 95vh;
     background-repeat: no-repeat;
@@ -448,6 +448,16 @@ span{
   }
 }
 
+.element {
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+  }
+
+
+
 .contenedorlast{
     width: 90%;
     max-width: 1000px;
@@ -455,3 +465,18 @@ span{
     margin: auto;
     padding: 0 0 0 0;
 }
+
+/* Scroll Indicator */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  webrouk-back-top-scroll-indicator {
+    /* Expected variables from inside the component (optional) */
+    --w-primary-color: 218, 95%, 0%; /* HSL color values without the brackets */
+    --w-diameter-size: 46px;
+    left: 20px;
+    bottom: 35px;
+  }
