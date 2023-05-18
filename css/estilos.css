@@ -57,7 +57,7 @@ body{
     display: inline-block;
     text-decoration: none;
     padding: 12px 15px;
-    background: #e6e222c9;
+    background: #e5e336;
     border-radius: 8px;
     color: #fff;
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(12, 12, 12), 0 0 0.2em rgba(5, 5, 6, 0.606);
@@ -134,8 +134,9 @@ body{
 /* Info */
 
 .info{
-    background: #e6e222c9;
-    color: rgb(0, 0, 0);
+    /* background: #e5e336; */
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient( #ffffff, #e5e336);
 }
 
 
@@ -220,7 +221,8 @@ body{
 /* footer */
 
 footer{
-    background-color: #e6e222c9;   color: rgb(0, 0, 0);
+    background-color: #e5e336;
+    color: rgb(0, 0, 0);
 }
 
 .form{
@@ -384,7 +386,6 @@ input[type="submit"]:hover{
 }
 
 .texto-destacado{
-    color: #15a9d6 ;
     font-weight: bold;
 }
 .texto-azul{
@@ -480,3 +481,9 @@ span{
     left: 20px;
     bottom: 35px;
   }
+
+  .svg-wave{
+    stroke: none; 
+    fill: #e5e336;
+  }
+
