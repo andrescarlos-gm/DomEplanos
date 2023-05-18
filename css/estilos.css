@@ -221,7 +221,7 @@ body{
 /* footer */
 
 footer{
-    background-color: #e5e336;
+    background-image: linear-gradient( #e5e336, #ffffff);
     color: rgb(0, 0, 0);
 }
 
