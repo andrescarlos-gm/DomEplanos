@@ -29,3 +29,6 @@ menuItems.forEach(item => {
 // Inicializacion de animate on scroll (AOS)
 
 AOS.init();
+
+
+
